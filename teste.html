@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>DW</title>
+		<style>
+			body{
+				font-family: verdana, sans-serif;
+			}
+			table,  th{
+				border: solid 1px blue;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<A id="topo"></a>
+			<h1>HTML</h1>
+			<p>Fundamentos da Linguagem HTML</p>
+		</header>
+		<section>
+			<h2>Marcações de texto</h2>
+			<p>parágrafo<br>
+				<b>negrito</b>,
+				<i>italico</i>,
+				<u>sublinhado</u>.
+				<s>traçado</s>,
+				texto <sub>subescrito</sub>,
+				texto <sup>sobresctito</sup>
+			</p>
+		</section>
+		<section>
+			<h2>Listas</h2>
+			<h3>Listas não ordenadas</h3>
+			<ul>
+				<li>item</li>
+				<li>item</li>
+				<li>item</li>
+			</ul>
+			<h3>Listas ordenadas</h3>
+			<ol>
+				<li>item</li>
+				<li>item</li>
+				<li>item</li>
+			</ol>
+			<h3>Listas de definição</h3>
+			<dl>
+				<dt>manga</dt>
+				<dd>de camisa</dd>
+				<dd>fruta</dd>
+				<dd>separação de pasto</dd>
+				<dt>mandioca</dt>
+				<dt>aipim</dt>
+				<dt>macaxeira</dt>
+				<dd>raiz comestivel</dd>
+			</dl>
+		</section>
+		<section>
+			<h2>Imagens</h2>
+			<img src="https://picsum.photos/200/300">
+		</section>
+		<section>
+			<h2>Tabelas</h2>
+			<table>
+				<tr>
+				<th></th>
+				<th>Segunda</th>
+				<th>Terça</th>
+				<th>Quarta</th>
+				<th>Quinta</th>
+				<th>Sexta</th>
+				</tr>
+				<tr>
+				<th>Manhã</th>
+				<th>-</th>
+				<th rowspan ="2" >x</th>
+				<th>x</th>
+				<th>-</th>
+				<th>x</th>
+				</tr>
+				<th>Tarde</th>
+				<th>x</th>
+				
+				<th>-</th>
+				<th>x</th>
+				<th>-</th>
+				</tr>
+				<th>Noite</th>
+				<th colspan = "2">-</th>
+				
+				<th>-</th>
+				<th>x</th>
+				<th>x</th>
+				</tr>
+			</table>			
+		</section>
+		<section>
+			<h2>Formulario</h2>
+			<h3>Método GET</h3>
+			<form action = "http://google.com/search" method="GET">
+				<input type="text" name="q" placeholder="search">
+				<input type="submit" value="pesquisar">
+			</form>
+			<h3>Método POST</h3>
+			<form action = "http://requestsecho.herokuapp.com" method="GET">
+				<input type="text" name="q" placeholder="search">
+				<input type="submit" value="pesquisar">
+				
+			</form>
+		</section>
+		
+	</body>
+</html>	
